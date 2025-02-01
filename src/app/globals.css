@@ -13,6 +13,9 @@
     --foreground: #ededed;
   }
 }
+.item-img{
+  @apply w-[220px] h-[150px] hover:scale-125 duration-200 cursor-pointer
+}
 
 body {
   color: var(--foreground);
